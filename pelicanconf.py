@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'daniele arosio'
 SITENAME = 'datan'
-SITEURL = ''
+SITEURL = 'https://darosio.github.io/datan'
 
 PATH = 'content'
 
@@ -63,12 +63,12 @@ GITHUB_SKIP_FORK = True
 GITHUB_SHOW_USER_LINK = True
 
 # Sharing
-# TWITTER_USER = 'jakevdp'
-# GOOGLE_PLUS_USER = 'jakevdp'
-# GOOGLE_PLUS_ONE = True
+TWITTER_USER = 'danielearosio'
+GOOGLE_PLUS_USER = 'danielepietroarosio'
+GOOGLE_PLUS_ONE = True
 # GOOGLE_PLUS_HIDDEN = False
 # FACEBOOK_LIKE = False
-# TWITTER_TWEET_BUTTON = True
+TWITTER_TWEET_BUTTON = True
 # TWITTER_LATEST_TWEETS = True
 # TWITTER_FOLLOW_BUTTON = True
 # TWITTER_TWEET_COUNT = 3
