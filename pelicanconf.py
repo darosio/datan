@@ -31,9 +31,12 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = 10
 
+# Title menu options
+MENUITEMS = [('Archives', '/archives.html')]
+
 STATIC_PATHS = ['images', 'figures', 'downloads']
 
-THEME = '../pelican-octopress-theme/'
+THEME = 'pelican-octopress-theme/'
 
 PLUGIN_PATHS = ['../pelican-plugins', 'plugins']
 PLUGINS = ['org_pandoc_reader', 'summary',
