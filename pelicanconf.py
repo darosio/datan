@@ -32,7 +32,7 @@ AUTHOR_FEED_RSS = None
 DEFAULT_PAGINATION = 10
 
 # Title menu options
-MENUITEMS = [('Archives', '/archives.html')]
+MENUITEMS = [('Archives', 'archives.html')]
 
 STATIC_PATHS = ['images', 'figures', 'downloads']
 
