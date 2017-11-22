@@ -38,10 +38,11 @@ STATIC_PATHS = ['images', 'figures', 'downloads']
 
 THEME = 'pelican-octopress-theme/'
 
-PLUGIN_PATHS = ['../pelican-plugins']
+PLUGIN_PATHS = ['../pelican-plugins', 'plugins']
 PLUGINS = ['org_pandoc_reader', 'summary',
            'liquid_tags.include_code',
            'liquid_tags.literal',
+           'ipynb.markup',
            'render_math']
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -57,7 +58,7 @@ SEARCH_BOX = True
 
 #Github include settings
 GITHUB_USER = 'darosio'
-GITHUB_REPO_COUNT = 1
+GITHUB_REPO_COUNT = 0
 GITHUB_SKIP_FORK = True
 GITHUB_SHOW_USER_LINK = True
 
